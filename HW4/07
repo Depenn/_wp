@@ -20,5 +20,3 @@ let a= new Vector([1,2,3]);
 let b= new Vector([4,5,6]);
 
 console.log(a.add(b).sub(b).dot(b));
-
-//https://chatgpt.com/share/67e6c715-f298-800c-ada0-03ca732d65a6
