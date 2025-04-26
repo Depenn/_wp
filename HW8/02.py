@@ -1,6 +1,4 @@
 def avg(n):
-    if not n:
-        return 0
     avg = sum(n) / len(n)
     return round(avg, 1)
     
