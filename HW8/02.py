@@ -1,13 +1,7 @@
-def average(data):
-    for student in data:
-        score = student['score']
-        total = sum(score)
-        avg = round(total / len(score), 1)
-        print(f"{student['name']}: total = {total}, average = {avg}")
-        
-students = [
-    {'name': 'Graham', 'score': [67, 70, 100]},
-    {'name': 'Bell', 'score': [80, 90, 40]},
-]
-
-average(students)
+def avg(n):
+    if not n:
+        return 0
+    avg = sum(n) / len(n)
+    return round(avg, 1)
+    
+print(avg([100,43,11]))
